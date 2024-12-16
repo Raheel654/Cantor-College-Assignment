@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure this file loads only on screens wider than 720px as per your media query setup */
+.container {
+    width: 80%;
+    margin: auto; /* Centers the container */
+}
+
+.menu-button{
+    display: none;
+}
+
+.menu{
+    position: static;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li a:hover {
+    padding: 0;
+}
+
+.widget-container ul {
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch; 
+    flex-wrap: wrap;
+}
+
+.widget-container ul li {
+    width: 30%; 
+    box-sizing: border-box;
+}
+
+.widget-container ul li img {
+    width: 100%;        
+    height: 250px;      
+    object-fit: cover;  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+h1{
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#underHeader{
+    font-size: 40px;
+}
+
+#intro{
+    font-size: 25px;
+}
+
+
+.contact-us{
+    padding-top: 20px;
+}
+
+.contact-us p{
+    font-size: 20px;
+}
+
+.about-us{
+    background-color: rgba(128, 128, 128, 0);
+}
+
+.about-us p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+.facility-list ul{
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch; 
+    flex-wrap: wrap;
+}
+
+.facility-list ul li {
+    width: 30%; 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+   
+}
+
+.facility-list ul li img {
+    width: 100%;        
+    height: 250px;      
+    object-fit: cover;  
+    display: block;
+    padding: 10px;
+}
+
+.textonimage {
+    width: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 10px;
+    margin: 10px;
+}
+
+#LearningResourcesTitle{
+    padding-top: 20px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.learningResources h2{
+    padding-left: 5px;
+}
+
+#adjustWidthStaffBusiness li:nth-last-child(-n+2){
+    width: 45%;
+}
+
+#adjustWidthStudents ul li{
+    width:45%
+}
+
+#adjustWidthStudents h2{
+    padding-left: 5px;
+}
+
+#ruleLarge{
+    padding-top: 30px;
+}
+
+#adjustWidthBusiness ul li{
+    width: 45%;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.faq-content ul li{
+    width: 45%;
+}
+
+.facility-intro p{
+    font-size: 25px;
+}
+
+.course-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+}
+
+.course{
+    width: 30%;
+    min-height: 300px;
+}
+
+#course-filter{
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+}
+
+#search-bar{
+    height: 40px;
+    font-size: 18px;
+}
+
+#search, #filter{
+    font-size: 25px;
+}
+
+#filter{
+    margin-right: 52px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
